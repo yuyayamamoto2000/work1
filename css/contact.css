@@ -1,0 +1,32 @@
+.contact{
+  width: 660px;
+  margin-left: 20px;
+  float: left;
+  font-size: 1.5rem;
+}
+.contact-form th{
+  text-align: right;
+  vertical-align: middle;
+  padding: -5px -5px;
+  width: 150px;
+  height: 7rem;
+}
+.submitbuttom {
+  font-size: 2rem;
+  height: 40px;
+  width: 70px;
+  background-color: #0099CC;
+  margin-left: 160px;
+}
+.submitbuttom:hover{
+  opacity: 0.6;
+}
+input[type="text"]{
+  width: 480px;
+}
+input[type="email"]{
+  width: 480px;
+}
+.contact-form th{
+  height: 7rem;
+}
