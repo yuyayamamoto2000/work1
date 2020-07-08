@@ -40,8 +40,10 @@ header li a:hover{
 .left {
   float: left;
 }
-ul .right-box{
+/* .right-box{ */
+.right {
   float: right;
+  flex-direction: row;
   }
 ul .right .left{
   color: #fff;
@@ -56,6 +58,7 @@ header ul:after {
 }
 /* ここまでがheader部分の実装 */
 .main-header img {
+  margin-top: 200px;
 /* main画像（白い「Achieve」の文字の画像）部分の実装 */
 }
 .about {
@@ -63,10 +66,31 @@ header ul:after {
 }
 /* ここから */
 .function {
+  background-color: #808080;
+  display: block;
 }
 .function-images {
+  display: flex;
+  flex-wrap: wrap;
 }
 .function-image {
+  /* width: calc(50%/4); */
+  /* padding: 0 5px;
+  /* box-sizing: border-box;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0; */
+  display: block; 
+  justify-content: center;
+  margin:10px; 
+  padding:20px;
+  /* margin: auto; */
+}
+.function-image img{
+  max-width: 100%;
+  height: auto;
 }
 /* ここまでがfunction部分の実装 */
 footer {
